@@ -1,6 +1,6 @@
 module sdk
 
-go 1.26.1
+go 1.26.0
 
 require github.com/aws/aws-sdk-go-v2/service/s3 v1.97.3
 
