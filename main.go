@@ -18,8 +18,8 @@ func main() {
 		}
 	}
 
-	log.Println("server running on http://localhost:8080")
-	log.Fatal(router.NewRouter().Run(":8080"))
+	log.Println("server running on http://localhost:2040")
+	log.Fatal(router.NewRouter().Run(":2040"))
 }
 
 func loadDotEnv(path string) {
